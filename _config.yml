@@ -15,14 +15,14 @@ remote_theme             : "mmistakes/minimal-mistakes@4.15.1"
 minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "es-ES"
 title                    : "adriansoriagarcia.io"
 title_separator          : "-"
 name                     : "AdrianSG"
-description              : "Posts sobre aplicaciones y desarrollo web"
+description              : "Tutoriales sobre aplicaciones y desarrollo web"
 url                      : "https://adriansoriagarcia.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "slemire/slemire.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "adriansoriagarcia/adriansoriagarcia.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/masthead.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Snowscan"
+  name             : "Adrian"
   avatar           : "/assets/images/avatar.png"
   bio              : "Post sobre desarrollo de aplicaciones web"
   location         : "España"
@@ -130,7 +130,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          :  "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
