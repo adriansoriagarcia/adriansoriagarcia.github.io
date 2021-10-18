@@ -15,7 +15,7 @@ categories:
 tags:
   - linux
   - gitlab
-  - cve
+  - developer
   - docker
   - privileged container
 ---
@@ -45,8 +45,6 @@ PORT     STATE SERVICE VERSION
 |_/s/ /snippets/new /snippets/*/edit
 | http-title: Sign in \xC2\xB7 GitLab
 |_Requested resource was http://10.129.149.31:5080/users/sign_in
-|_http-trane-info: Problem with XML parsing of /evox/about
-```
 
 ## Gitlab
 
