@@ -1,6 +1,6 @@
 ---
-title: "Publicaciones por año"
+title: "Artículos por año"
 permalink: /year-archive/
-layout: publicaciones
+layout: posts
 author_profile: true
 ---
