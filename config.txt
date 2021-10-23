@@ -1,3 +1,0 @@
-En el archivo _config.yml --> esta la confguración de inicio
-en el directorio  _posts --> estan todos los post
-en el directorio _data --> esta el titulo y direccion del menu 
