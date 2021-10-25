@@ -2,19 +2,20 @@
 layout: single
 title: Instalación de Ionic y creación de varias aplicaciones.
 excerpt: "Realizaremos la instalación de ionic desde la línea de comandos y crearemos una primera aplicación, llamaremos al proyecto 'EjemploBlank', crearemos un proyecto por cada tipo de plantilla que ofrece ionic durante el proceso."
-date: 2021-10-23
+date: 2021-09-21
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-ready/ready_logo.png
   teaser_home_page: true
   icon: /assets/images/logo-ionic.svg
 categories:
-  - programacion
+  - programación
   - ionic
 tags:
   - instalación
   - plantilla
   - proyectos
+  - angular
 
 ---
 

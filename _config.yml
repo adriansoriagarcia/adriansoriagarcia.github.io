@@ -19,7 +19,7 @@ locale                   : "es-ES"
 title                    : "adriansoriagarcia.io"
 title_separator          : "-"
 name                     : "AdrianSG"
-description              : "Articulos sobre aplicaciones y desarrollo web"
+description              : "Artículos sobre aplicaciones y desarrollo web"
 url                      : "https://adriansoriagarcia.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "adriansoriagarcia/adriansoriagarcia.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Adrian"
   avatar           : "/assets/images/avatar.png"
-  bio              : "Articulos sobre desarrollo de aplicaciones web y programación"
+  bio              : "Artículos sobre desarrollo de aplicaciones web y programación"
   location         : "España"
   email            : "adriansoriagarcia97@hotmail.com"
   uri              :
