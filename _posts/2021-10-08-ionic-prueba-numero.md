@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Aplicación de toma de contacto adivina número.
-excerpt: "En este artículo vamos a desarrollar una aplicación para adivinar el numero secreto y servira para tomar contacto con ionic y los elementos que lo componen."
+excerpt: "En este artículo vamos a desarrollar una aplicación para adivinar el número secreto y servira para tomar contacto con ionic y los elementos que lo componen."
 date: 2021-10-08
 classes: wide
 header:
