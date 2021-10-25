@@ -1,8 +1,8 @@
 ---
 layout: single
-title: proando.
-excerpt: "En este artículo vamos a amplíar la funcionalidad de la aplicación Adivina número con las instrucciones siguientes. Así conocerás el funcionamiento de la directiva *ngIf de Angular para mostrar elementos condicionalmente."
-date: 2021-10-15
+title: Aplicación de toma de contacto: Adivina número.
+excerpt: "En este artículo vamos a desarrollar una aplicación donde vamos a utilizar un bucle for de angular en el HTML para poder mostrar una lista de usuarios."
+date: 2021-10-08
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-ready/ready_logo.png
