@@ -21,6 +21,21 @@ tags:
 
 ---
 
+## Pasos
+
+Creamos un nuevo proyecto con el siguiente comando.
+
+![](/assets/images/ionic-adivina-numero/1.PNG)
+
+Lo ejecutamos con el siguiente comando
+
+![](/assets/images/ionic-adivina-numero/2.PNG)
+
+Abrimos el proyecto en visual studio code.
+
+![](/assets/images/ionic-adivina-numero/3.PNG)
+
+A continuación vemos todo el código HTML y TS.
 
 ## Código HTML
 ```
@@ -79,8 +94,15 @@ export class HomePage {
 
 }
 
-
-
 ```
+
+Ahora vemos las distintas comprobaciones.
+
+![](/assets/images/ionic-adivina-numero/6.PNG)
+
+![](/assets/images/ionic-adivina-numero/7.PNG)
+
+![](/assets/images/ionic-adivina-numero/8.PNG)
+
 
 
