@@ -21,32 +21,62 @@ tags:
 
 ---
 
-## Preparación
-
-Creamos un nuevo proyecto con el siguiente comando.
-
-![](/assets/images/ionic-adivina-numero/1.PNG)
-
-Lo ejecutamos con el siguiente comando.
-
-![](/assets/images/ionic-adivina-numero/2.PNG)
-
-Abrimos el proyecto en visual studio code.
-
-![](/assets/images/ionic-adivina-numero/3.PNG)
-
-A continuación vemos todo el código HTML y TS.
-
-![](/assets/images/ionic-adivina-numero/4.PNG)
-![](/assets/images/ionic-adivina-numero/5.PNG)
 
 
-## Ejecución
+## Código HTML
+```
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Adivina el número secreto
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
 
-Ahora vemos las distintas comprobaciones.
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <ion-input type="number" min="1" max="100" [(ngModel)]="num" placeholder="Introduce un número del 1 al 100">
+    </ion-input>
+    <p>El número secreto es {{ mayorMenor }} que el número introducido</p>
+    <ion-button expand="block" (click)="compruebaNumero()">Adivina</ion-button>
+  </div>
+</ion-content>
+```
 
-![](/assets/images/ionic-adivina-numero/6.PNG)
+## Código TS
+```
+import { Component } from '@angular/core';
 
-![](/assets/images/ionic-adivina-numero/7.PNG)
+@Component({
+  selector: 'app-home',
+  templateUrl: 'home.page.html',
+  styleUrls: ['home.page.scss'],
+})
+export class HomePage {
 
-![](/assets/images/ionic-adivina-numero/8.PNG)
+  num: Number;
+  NumSecret: Number = this.numAleatorio(1, 100);
+  mayorMenor: string = "...";
+
+  constructor() {
+    console.log("El número secreto es: " + this.NumSecret);
+  }
+
+  numAleatorio(a, b) {
+    return Math.round(Math.random()*(b-a)+parseInt(a));
+  }
+
+  compruebaNumero() {
+    if (this.num)
+      if (this.NumSecret < this.num){
+        this.mayorMenor = "menor";
+      }else if (this.NumSecret > this.num) {
+        this.mayorMenor = "mayor";
+      } else{
+        this.mayorMenor = "igual";
+      }
+  }
+
+}
+
+```
