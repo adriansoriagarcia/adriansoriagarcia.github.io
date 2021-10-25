@@ -11,7 +11,6 @@ header:
 categories:
   - programación
   - ionic
-  
 tags:
   - despliegue
   - plantilla
