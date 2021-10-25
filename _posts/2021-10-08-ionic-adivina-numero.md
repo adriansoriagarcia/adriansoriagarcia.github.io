@@ -102,7 +102,9 @@ export class HomePage {
 Ahora vemos las distintas comprobaciones.
 
 ![](/assets/images/ionic-adivina-numero/6.PNG)
+
 ![](/assets/images/ionic-adivina-numero/7.PNG)
+
 ![](/assets/images/ionic-adivina-numero/8.PNG)
 
 
