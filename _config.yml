@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "haxor" # "air", "aqua", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "es-ES"
-title                    : "adriansoriagarcia.io"
+title                    : "Inicio - Sitio Web de Adrián Soria García"
 title_separator          : "-"
 name                     : "AdrianSG"
 description              : "Artículos sobre aplicaciones y desarrollo web"
-url                      : "https://adriansoriagarcia.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://adriansoriagarcia.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "adriansoriagarcia/adriansoriagarcia.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "https://github.com/adriansoriagarcia" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 logo                     : "/assets/images/masthead.png"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
@@ -114,7 +114,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "adriansoriagarcia"
+  github           : "https://github.com/adriansoriagarcia"
   gitlab           :
   google_plus      :
   keybase          : #"Adrian"
