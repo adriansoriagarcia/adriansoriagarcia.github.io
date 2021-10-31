@@ -262,7 +262,7 @@ cordova-res android --skip-config --copy
 ```
 De esa manera se habrán generado automáticamente los archivos correspondientes al icono y a la splash para multitud de posibles tamaños de pantalla.
 
-![](/assets/images/ionic-responsive-personalizada/estructura1.png)
+![](/assets/images/ionic-responsive-personalizada/estructura1.PNG)
 
 ##Compila e instala la aplicación en un dispositivo
 
@@ -279,9 +279,9 @@ Desde el navegador web con ancho de pantalla pequeño.
 ![](/assets/images/ionic-responsive-personalizada/2.PNG)
 
 Desde un teléfono Android con orientación vertical.
-![](/assets/images/ionic-responsive-personalizada/vistamovil1.jpg)
+![](/assets/images/ionic-responsive-personalizada/vistamovil1.PNG)
 
 Desde un teléfono Android con orientación horizontal.
-![](/assets/images/ionic-responsive-personalizada/vistamovil2.jpg)
+![](/assets/images/ionic-responsive-personalizada/vistamovil2.PNG)
 
 
