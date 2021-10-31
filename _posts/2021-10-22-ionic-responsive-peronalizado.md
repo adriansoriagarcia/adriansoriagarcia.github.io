@@ -264,7 +264,7 @@ De esa manera se habrán generado automáticamente los archivos correspondientes
 
 ![](/assets/images/ionic-responsive-personalizada/estructuras1.PNG)
 
-##Compila e instala la aplicación en un dispositivo
+## Compila e instala la aplicación en un dispositivo
 
 Con el siguiente comando añadimos la plataforma Android al proyecto: "ionic capacitor add android".
 Con este comando compilamos y ejecutamos directamente el proyecto en nuestro dispositivo: "ionic capacitor run android".
