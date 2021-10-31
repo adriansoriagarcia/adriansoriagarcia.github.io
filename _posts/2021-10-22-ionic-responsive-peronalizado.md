@@ -285,4 +285,10 @@ Desde un teléfono Android con orientación vertical.
 Desde un teléfono Android con orientación horizontal.
 ![](/assets/images/ionic-responsive-personalizada/vistamovil2.PNG)
 
+Icono en la pantalla de Android.
+![](/assets/images/ionic-responsive-personalizada/iconopantalla.PNG)
+
+Splash inicio aplicación en Android.
+![](/assets/images/ionic-responsive-personalizada/splash1.jpg)
+
 
