@@ -167,7 +167,7 @@ import { HttpClientModule } from '@angular/common/http';
 export class HomePageModule {}
 ```
 
-## Pasos a seguit
+## Pasos a seguir
 Cada registro de información se deberá mostrar en un elemento ion-card, debiendo adaptarse el número de columnas a diversos tamaños de pantalla. Los datos deberán ser obtenidos a partir de un documento JSON accesible desde una URL. 
 Puedes generar el documento JSON usando un generador aleatorio como https://mockaroo.com/, o bien puedes editar a mano un documento a tu gusto.
 
@@ -261,7 +261,7 @@ cordova-res ios --skip-config --copy
 cordova-res android --skip-config --copy
 ```
 De esa manera se habrán generado automáticamente los archivos correspondientes al icono y a la splash para multitud de posibles tamaños de pantalla.
-![](/assets/images/ionic-responsive-personalizada/estructura1.PNG)
+![](/assets/images/ionic-responsive-personalizada/estructura1.png)
 
 ##Compila e instala la aplicación en un dispositivo
 
@@ -278,9 +278,9 @@ Desde el navegador web con ancho de pantalla pequeño.
 ![](/assets/images/ionic-responsive-personalizada/2.PNG)
 
 Desde un teléfono Android con orientación vertical.
-![](/assets/images/ionic-responsive-personalizada/vistamovil1.PNG)
+![](/assets/images/ionic-responsive-personalizada/vistamovil1.jpg)
 
 Desde un teléfono Android con orientación horizontal.
-![](/assets/images/ionic-responsive-personalizada/vistamovil2.PNG)
+![](/assets/images/ionic-responsive-personalizada/vistamovil2.jpg)
 
 
