@@ -262,8 +262,7 @@ cordova-res android --skip-config --copy
 ```
 De esa manera se habrán generado automáticamente los archivos correspondientes al icono y a la splash para multitud de posibles tamaños de pantalla.
 
-![](/assets/images/ionic-responsive-personalizada/estructura1.png)
-![](/assets/images/ionic-responsive-personalizada/estructura1.PNG)
+![](/assets/images/ionic-responsive-personalizada/estructuras1.PNG)
 
 ##Compila e instala la aplicación en un dispositivo
 
