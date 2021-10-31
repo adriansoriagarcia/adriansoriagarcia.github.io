@@ -171,16 +171,16 @@ export class HomePageModule {}
 Cada registro de información se deberá mostrar en un elemento ion-card, debiendo adaptarse el número de columnas a diversos tamaños de pantalla. Los datos deberán ser obtenidos a partir de un documento JSON accesible desde una URL. 
 Puedes generar el documento JSON usando un generador aleatorio como https://mockaroo.com/, o bien puedes editar a mano un documento a tu gusto.
 
-```
-Enlace al archivo JSON generado: https://github.com/adriansoriagarcia/responsive-personalizado/blob/master/datosaleatorios.json
-```
+
+Enlace al archivo JSON generado: `https://github.com/adriansoriagarcia/responsive-personalizado/blob/master/datosaleatorios.json`
+
 
 Como los datos del archivo JSON viene directamente como un array (sin que tenga un array dentro de otra etiqueta como en el ejemplo anterior), no hace falta usar el método pipe y map, sólo así:
 this.variable = this.httpClient.get('https://miserver/folder/arrayjson');
 
-```
-Linea utilizada en el archivo home.ts: this.users = this.httpClient.get('https://raw.githubusercontent.com/adriansoriagarcia/responsive-personalizado/master/datosaleatorios.json');
-```
+
+Linea utilizada en el archivo home.ts: this.users = `this.httpClient.get('https://raw.githubusercontent.com/adriansoriagarcia/responsive-personalizado/master/datosaleatorios.json')`;
+
 
 A los datos del documento JSON se debe acceder desde la web, de manera semejante a la aplicación de lista de contactos anterior. Por tanto, para que tu archivo JSON sea accesible desde la web debes alojarlo en algún servidor web. Una manera sencilla de hacerlo es subirlo a GitHub junto con tu proyecto.    
 
@@ -266,8 +266,8 @@ De esa manera se habrán generado automáticamente los archivos correspondientes
 
 ## Compila e instala la aplicación en un dispositivo
 
-Con el siguiente comando añadimos la plataforma Android al proyecto: "ionic capacitor add android".
-Con este comando compilamos y ejecutamos directamente el proyecto en nuestro dispositivo: "ionic capacitor run android".
+Con el siguiente comando añadimos la plataforma Android al proyecto: `ionic capacitor add android`.
+Con este comando compilamos y ejecutamos directamente el proyecto en nuestro dispositivo: `ionic capacitor run android`.
 
 
 ## Resultado
