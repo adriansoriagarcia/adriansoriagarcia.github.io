@@ -20,7 +20,8 @@ tags:
   - local
 ---
 
-Aquí adjunto el enlace de mi github para poder descargar el proyecto = https://github.com/adriansoriagarcia/ejemplo-firestore
+Aquí adjunto el enlace de mi github para poder descargar el proyecto = 
+* https://github.com/adriansoriagarcia/ejemplo-firestore
 
 
 ## Pasos para configurar la base de datos en Google Cloud Firestore
