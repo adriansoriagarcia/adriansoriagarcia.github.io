@@ -18,8 +18,6 @@ tags:
   - proyectos
   - angular
   - local
-  - bucles
-
 ---
 
 Aquí adjunto el enlace de mi github para poder descargar el proyecto = https://github.com/adriansoriagarcia/ejemplo-firestore
@@ -258,9 +256,11 @@ Insertamos datos para comprobar que se muestran en Firestore.
 
 Igual que hemos realizado en el paso anterior de insertar registros, vamos a hacer lo mismo, crearemos un metodo en el archivo firestore.service.ts y modificamos el archivo HTML.
 ## Archivo firestore.service.ts
-` public consultar(coleccion) {
-    return this.angularFirestore.collection(coleccion).snapshotChanges();
-  }`
+```
+public consultar(coleccion) {
+  return this.angularFirestore.collection(coleccion).snapshotChanges();
+}
+```
   
 ## Archivo home.page.ts  
 ```
