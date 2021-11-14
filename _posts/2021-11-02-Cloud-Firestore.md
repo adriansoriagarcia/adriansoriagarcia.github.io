@@ -258,9 +258,9 @@ Insertamos datos para comprobar que se muestran en Firestore.
 
 Igual que hemos realizado en el paso anterior de insertar registros, vamos a hacer lo mismo, crearemos un metodo en el archivo firestore.service.ts y modificamos el archivo HTML.
 ## Archivo firestore.service.ts
- ` public consultar(coleccion) {`
- `   return this.angularFirestore.collection(coleccion).snapshotChanges();`
-  `}`
+ ` public consultar(coleccion) {
+    return this.angularFirestore.collection(coleccion).snapshotChanges();
+  }`
   
 ## Archivo home.page.ts  
 ```
@@ -313,7 +313,8 @@ Igual que hemos realizado en el paso anterior de insertar registros, vamos a hac
  }
  ```
  
- ## Archivo home.page.ts
+## Archivo home.page.ts
+ 
  Creamos la propiedad idTareaSelec para almacenar el Id que deseamos borrar. Pasamos el valos al método.borrar() anterior. El método selecTarea() se encarga de almacenar en idTareaSelec el ID.
  
  ```
@@ -337,7 +338,7 @@ Igual que hemos realizado en el paso anterior de insertar registros, vamos a hac
   }
  ```
  
- ## Archivo home.page.html
+## Archivo home.page.html
 Añadir a cada item de la lista la llamada al método selecTarea cuando se seleccione un determinado item. Se recorre el array arrayColeccionTareas, cargando en la variable documentTarea cada uno de los elementos de ese array. Esa variable documentTarea es la que se pasa como parámetro en la llamada a selecTarea() que se ha implementado antes para almacenar el ID y los datos de la tarea seleccionada por el usuario.
 ```
   <ion-list>
@@ -347,5 +348,4 @@ Añadir a cada item de la lista la llamada al método selecTarea cuando se selec
   </ion-list>
 ```  
 En este ejemplo se ha añadido un botón para eliminar el item que se encuentre seleccionado: 
-
- ` <ion-button (click)="clicBotonBorrar()">Borrar tarea</ion-button>`
+`<ion-button (click)="clicBotonBorrar()">Borrar tarea</ion-button>`
