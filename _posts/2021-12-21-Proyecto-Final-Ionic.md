@@ -125,7 +125,7 @@ Con el comando anterior hemos creado un archivo dentro de la carpeta src/app.
 ![](/assets/images/ionic-proyecto-final/14.PNG)
 ![](/assets/images/ionic-proyecto-final/15.PNG)
 
-## Arichivo tarea.ts
+## Arichivo reparacion.ts
 ```
 export interface Reparacion {
     nombre: string;
@@ -175,9 +175,9 @@ Esa propiedad se crea como un objeto vacío en el constructor de la clase:
 `this.reparacionEditando = {} as Reparacion;`
 Como parámetro del método constructor se debe inyectar el servicio (firestore) que hemos creado anteriormente para que puedan ser usados en esta clase los métodos (insertar, consultar, etc) que se vayan creando en el archivo firestore.service.ts.
 `constructor(private firestoreService: FirestoreService)`
-También se va a preparar un método llamado clicBotonInsertar que se ejecutará cuando el usuario pulse un botón, que se encargará de tomar los datos que haya en la propiedad tareaEditando para insertarlos en la base de datos, llamando al método insertar que hemos hecho antes en el servicio que hemos llamado FirestoreService.
+También se va a preparar un método llamado clicBotonInsertar que se ejecutará cuando el usuario pulse un botón, que se encargará de tomar los datos que haya en la propiedad reparacionEditando para insertarlos en la base de datos, llamando al método insertar que hemos hecho antes en el servicio que hemos llamado FirestoreService.
 `this.firestoreService.insertar("reparaciones", this.reparacionEditando)`
-Observa que tras la llamada a insertar se usa el método then() de JavaScript para ejecutar un bloque de código una vez que finalice el código anterior (en este caso la inserción en la base de datos) que se hace de manera asíncrona. Aquí se va a mostrar un mensaje por consola para señalar que se ha realizado la acción correctamente y se vuelve a dejar vacío el objeto tareaEditando, de manera que quede preparado para seguir añadiendo nuevos datos.
+Observa que tras la llamada a insertar se usa el método then() de JavaScript para ejecutar un bloque de código una vez que finalice el código anterior (en este caso la inserción en la base de datos) que se hace de manera asíncrona. Aquí se va a mostrar un mensaje por consola para señalar que se ha realizado la acción correctamente y se vuelve a dejar vacío el objeto reparacionEditando, de manera que quede preparado para seguir añadiendo nuevos datos.
 
 `console.log('Reparacion creada correctamente!');
 this.reparacionEditando= {} as Reparacion;`
@@ -221,7 +221,7 @@ export class HomePage {
 ```
 
 ## Archivo home.page.html
-Para que el usuario introduzca datos, creamos un formulario con etiquetas Ionic. Vamos a hacer databinding con el objeto TareaEditando.
+Para que el usuario introduzca datos, creamos un formulario con etiquetas Ionic. Vamos a hacer databinding con el objeto reparacionEditando.
 `[(ngModel)]="reparacionEditando.nombre"`
 `[(ngModel)]="reparacionEditando.fecha"`
 `[(ngModel)]="reparacionEditando.lugar"`
@@ -262,7 +262,7 @@ El código completo es el siguiente.
     <ion-label>Imagen</ion-label>
     <ion-input [(ngModel)]="reparacionEditando.imagen"></ion-input>
   </ion-item>
-  <ion-button (click)="clicBotonInsertar()">Añadir tarea</ion-button>
+  <ion-button (click)="clicBotonInsertar()">Añadir reparacion</ion-button>
 </ion-content>
 ```
 
@@ -372,7 +372,7 @@ public consultar(coleccion) {
  ```
  
 ## Archivo home.page.html
-Añadir a cada item de la lista la llamada al método selecReparacion cuando se seleccione un determinado item. Se recorre el array arrayColeccionReparaciones, cargando en la variable documentReparacion cada uno de los elementos de ese array. Esa variable documentReparacion es la que se pasa como parámetro en la llamada a selecReparacion() que se ha implementado antes para almacenar el ID y los datos de la tarea seleccionada por el usuario.
+Añadir a cada item de la lista la llamada al método selecReparacion cuando se seleccione un determinado item. Se recorre el array arrayColeccionReparaciones, cargando en la variable documentReparacion cada uno de los elementos de ese array. Esa variable documentReparacion es la que se pasa como parámetro en la llamada a selecReparacion() que se ha implementado antes para almacenar el ID y los datos de la reparacion seleccionada por el usuario.
 ```
   <ion-list>
     <ion-item *ngFor="let documentReparacion of arrayColeccionReparaciones" (click)="selecReparacion(documentReparacion)">
@@ -381,7 +381,7 @@ Añadir a cada item de la lista la llamada al método selecReparacion cuando se 
   </ion-list>
 ```  
 En este ejemplo se ha añadido un botón para eliminar el item que se encuentre seleccionado: 
-`<ion-button (click)="clicBotonBorrar()">Borrar tarea</ion-button>`
+`<ion-button (click)="clicBotonBorrar()">Borrar reparacion</ion-button>`
 
 ## Crear segunda página para el detalle
 Con el siguiente comando, creamos una pantalla a la cual le damos el nombre de detalles.
