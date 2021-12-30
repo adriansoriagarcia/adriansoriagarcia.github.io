@@ -344,7 +344,7 @@ public consultar(coleccion) {
  
 ## Archivo home.page.ts
  
- Creamos la propiedad idTareaSelec para almacenar el Id que deseamos borrar. Pasamos el valos al método.borrar() anterior. El método selecTarea() se encarga de almacenar en idTareaSelec el ID.
+ Creamos la propiedad idReparacionSelec para almacenar el Id que deseamos borrar. Pasamos el valos al método.borrar() anterior. El método reparacionSelec() se encarga de almacenar en idReparacionSelec el ID.
  
  ```
  idReparacionSelec: string;
@@ -372,7 +372,7 @@ public consultar(coleccion) {
  ```
  
 ## Archivo home.page.html
-Añadir a cada item de la lista la llamada al método selecTarea cuando se seleccione un determinado item. Se recorre el array arrayColeccionTareas, cargando en la variable documentTarea cada uno de los elementos de ese array. Esa variable documentTarea es la que se pasa como parámetro en la llamada a selecTarea() que se ha implementado antes para almacenar el ID y los datos de la tarea seleccionada por el usuario.
+Añadir a cada item de la lista la llamada al método selecReparacion cuando se seleccione un determinado item. Se recorre el array arrayColeccionReparaciones, cargando en la variable documentReparacion cada uno de los elementos de ese array. Esa variable documentReparacion es la que se pasa como parámetro en la llamada a selecReparacion() que se ha implementado antes para almacenar el ID y los datos de la tarea seleccionada por el usuario.
 ```
   <ion-list>
     <ion-item *ngFor="let documentReparacion of arrayColeccionReparaciones" (click)="selecReparacion(documentReparacion)">
@@ -593,7 +593,7 @@ clicBotonBorrar() {
   }
 ``` 
 
-##Personalización de icono y splash
+## Personalización de icono y splash
 Prepara las imágenes
 Crea una carpeta resources (si no existe) dentro del proyecto.
 Crea o busca una imagen para el icono. Deberá ser una imagen PNG de tamaño 1024x1024 píxeles. Asígnale el nombre icon.png y almacénala en la carpeta resources.
