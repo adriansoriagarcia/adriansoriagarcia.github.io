@@ -7,7 +7,7 @@ classes: wide
 header:
   teaser: /assets/images/htb-writeup-ready/ready_logo.png
   teaser_home_page: true
-  icon: /assets/images/logo-ionic.svg
+  icon: /assets/images/programacion.png
 categories:
   - programación
   - ionic
