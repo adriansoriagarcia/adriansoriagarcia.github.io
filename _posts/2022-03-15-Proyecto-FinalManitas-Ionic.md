@@ -33,28 +33,28 @@ Pantalla home sin usuario logueado.
 Pantalla home con usuario logueado.
 ![](/assets/images/ionic-proyecto-manitas/2.jpg)
 
-Pantalla de formulario con sus correspondientes botones.
+Pantalla de formulario con sus correspondientes botones en el cual se puede añadir, eliminar imágenes, guardar las imagenes seleccionadas y añadir las reparaciones..
 ![](/assets/images/ionic-proyecto-manitas/3.jpg)
 
 Pantalla de información con su botón para llamar y su mapa de localización.
 ![](/assets/images/ionic-proyecto-manitas/4.jpg)
 
-Pantalla de login.
+Pantalla de login, en la cual tambien podemos registrarnos pulsando en "Create an account".
 ![](/assets/images/ionic-proyecto-manitas/5.jpg)
 
-Pantalla de registro.
+Pantalla de registro, en la cual una vez registrado, nos podemos dirigir a la página de login..
 ![](/assets/images/ionic-proyecto-manitas/6.jpg)
 
-Vista home desde el ordenador.
+Vista de la página home desde el ordenador.
 ![](/assets/images/ionic-proyecto-manitas/7.PNG)
 
-Vista login desde el ordenador.
+Vista de la página login desde el ordenador.
 ![](/assets/images/ionic-proyecto-manitas/8.PNG)
 
-Vista registro desde el ordenador.
+Vista de la página registro desde el ordenador.
 ![](/assets/images/ionic-proyecto-manitas/9.PNG)
 
-Vista formulario desde el ordenador.
+Vista de la página formulario desde el ordenador.
 ![](/assets/images/ionic-proyecto-manitas/10.PNG)
 
 ## Archivo Home.html
