@@ -22,8 +22,11 @@ tags:
 
 Aquí adjunto el enlace de mi github para poder descargar el proyecto = 
 * https://github.com/adriansoriagarcia/proyecto-manitas
-Aquí adjunto el enlace de un video de demostracion de la app = 
+
+Aquí adjunto los enlaces de varios videos de demostracion de la app = 
 * https://drive.google.com/file/d/1bZefjPBnlS9rzfKkcRCiWRZGyVtQIIV4/view?usp=sharing
+
+* https://drive.google.com/file/d/1hEyxsS_uH4i6_mkX-xujs_m3u69Dthr1/view?usp=sharing
 
 ## Imágenes de funcionamiento del proyecto
 
