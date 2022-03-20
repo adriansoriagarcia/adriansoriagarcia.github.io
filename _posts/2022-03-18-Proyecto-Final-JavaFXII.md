@@ -27,9 +27,12 @@ Aquí adjunto el enlace de un video de demostracion del juego =
 ## ¿En qué consiste el juego?
 
 El juego consiste en buscar parejas de cartas antes de que se acaben los intentos. Tenemos tres niveles:
-Nivel facíl: Tenemos 20 intentos.
-Nivel medio: Tenemos 15 intentos.
-Nivel dificil: Tenemos 10 intentos.
+
+* Nivel facíl: Tenemos 20 intentos.
+
+* Nivel medio: Tenemos 15 intentos.
+
+* Nivel dificil: Tenemos 10 intentos.
 
 ## Fín de partida
 
@@ -41,7 +44,7 @@ El jugador tiene la posibilidad de reiniciar la partida una vez terminada, ya se
 
 ## Imagenes del juego.
 
-Pantalla principal en la cual podemos ver de que trata el juego y quien lo ha desarrollado, ademas de un botón para continuar.
+Pantalla principal en la cual podemos ver de que trata el juego y quien lo ha desarrollado, ademas de un botón para continuar al inicio del juego.
 ![](/assets/images/JavaFXII-proyecto-final/1.PNG)
 
 Cuando pulsamos el botón de continuar, podemos ver como es el juego, en el cual podemos elegir el nivel de dificultad, en el que dependiendo de dicho nivel tenemos diferentes intentos. Tambien podemos elegir si queremos sonido o no y cuando estemos listo, pulsaremos iniciar.
@@ -53,7 +56,7 @@ Así se vera el juego una vez iniciado durante 4 segundos, que es el tiempo que 
 Sí el jugador agota todos los intentos, d una ventana el la cual se indica que 'Has perdido'.
 ![](/assets/images/JavaFXII-proyecto-final/4.PNG)
 
-Por el contrario, si el jugador consigue emparejar todas las cartas, muestra una ventana en la cual se indica que 'Has ganado'.
+Por el contrario, si el jugador consigue emparejar todas las cartas, muestra una ventana en la cual se indica que 'Has ganado' y se reinicia, para poder empezar una nueva partida.
 ![](/assets/images/JavaFXII-proyecto-final/5.PNG)
 
 ## Algunos de los métodos y clases utilizados:
