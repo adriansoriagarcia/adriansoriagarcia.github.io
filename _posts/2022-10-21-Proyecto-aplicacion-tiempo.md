@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Proyecto final de JavaFXII.
+title: Aplicación meteorologica.
 excerpt: "En este artículo vamos a ver el resultado final de una pequeña aplicación web meteorologica con javascript vanilla."
 date: 2022-10-21
 classes: wide
@@ -35,29 +35,6 @@ En la siguiente imágen podemos ver como es la primera parte de la aplicación.
 
 En la siguiente imágen podemos ver como es la segunda parte de la aplicación.
 ![](/assets/images/aplicacion-tiempo/2.PNG)
-
-
-## Algunos de los métodos y clases utilizados:
-
-* scene
-* Panel
-* VBox
-* Timeline
-* ChoiceBox
-* Text
-* ImageView
-* Image
-* Label
-* AudioClip
-* GridPane
-
-## Clases utilizadas:
-* App
-* Control
-* MenuPrincipal
-* Carta
-* Tablero
-* PanelLateral
 
 ## Código Html
 ```
